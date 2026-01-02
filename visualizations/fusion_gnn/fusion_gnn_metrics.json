@@ -1,0 +1,28 @@
+{
+  "model_name": "Session-Global Fusion GNN",
+  "final_metrics": {
+    "click_recall": 0.0918,
+    "cart_recall": 0.0,
+    "order_recall": 0.0,
+    "otto_weighted": 0.0092
+  },
+  "best_metrics": {
+    "best_otto_score": 0.0252,
+    "best_epoch": 7
+  },
+  "training_info": {
+    "total_epochs": 12,
+    "final_train_loss": 1.6436,
+    "config": {
+      "lr": 0.001,
+      "batch_size": 32,
+      "epochs": 15,
+      "embedding_dim": 96,
+      "hidden_dim": 128,
+      "num_items": 1829821,
+      "num_gat_layers": 2,
+      "num_sage_layers": 1,
+      "dropout": 0.3
+    }
+  }
+}
