@@ -51,6 +51,8 @@ models/*.ckpt
 checkpoints/
 artifacts/*.pkl
 artifacts/*.npy
+artifacts/*.pt
+artifacts/*.pth
 scalers/*.pkl
 class_weight/
 
